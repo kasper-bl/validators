@@ -1,0 +1,14 @@
+{
+    "name": "kasper-bl/validators",
+    "description": "qweqe",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kasper-bl",
+            "email": "momopoki75@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
