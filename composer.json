@@ -1,6 +1,6 @@
 {
     "name": "kasper-bl/validators",
-    "description": "qweqe",
+    "description": "Custom validators for PHP applications",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,5 +10,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "illuminate/database": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Validators\\": "src/"
+        }
+    }
 }
